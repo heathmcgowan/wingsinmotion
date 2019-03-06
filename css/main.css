@@ -39,9 +39,17 @@ header {
 	text-align: center;
 }
 
+.dot {
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #997141;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .nav-divider {
-	transform: translateY(-30%);
-	padding: 0 20px;
+	transform: translateY(-0.2rem);
+	padding: 0 1rem;
 }
 
 .nav-item a {
