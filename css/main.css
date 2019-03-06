@@ -1,0 +1,110 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat;
+	background-size: contain;
+	padding: 35px;
+}
+
+header {
+	display: block;
+	margin: auto;
+	max-width: 800px;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	max-width: 369px;
+}
+
+.sublogo {
+	max-width: 435px;
+	display: block;
+	margin: 30px auto;
+}
+
+.logo img, .sublogo img {
+	width: 100%;
+}
+
+.nav {
+	display: block;
+	text-align: center;
+}
+
+.nav li {
+	display: inline-block;
+	text-align: center;
+}
+
+.nav-divider {
+	transform: translateY(-30%);
+	padding: 0 20px;
+}
+
+.nav-item a {
+	text-decoration: none;
+	color: #5A0024;
+	font-size: 37px;
+	display: inline-block;
+}
+
+.pointer:hover {
+	opacity: 0.7;
+}
+
+.pointer:active {
+	opacity: 1;
+}
+
+main {
+	margin-top: 40px;
+}
+
+.blurb {
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 1.4;
+	color: #A85E08;
+	max-width: 1400px;
+	margin-top: 20px;
+}
+
+.call-to-action {
+	text-decoration: none;
+	font-weight: 500;
+	color: #5A0024;
+}
+
+.hero {
+	display: block;
+	margin: 50px auto;
+	max-width: 100%;
+}
+
+.category-container {
+	text-align: center;
+	display: block;
+	margin: 95px auto;
+	max-width: 1360px;
+}
+
+.category-container a {
+	display: block;
+	margin: 15px auto;
+	font-size: 45px;
+	text-decoration: none;
+	color: #5A0024;
+	max-width: 100%;
+}
+
+.category-container img {
+	max-width: 100%;
+}
+
+/*MAILCHIMP*/
