@@ -68,7 +68,7 @@ header {
 }
 
 main {
-	margin-top: 40px;
+	margin: 40px auto;
 }
 
 .blurb {
@@ -112,6 +112,12 @@ main {
 }
 
 .category-container img {
+	max-width: 100%;
+}
+
+.wimround {
+	display: block;
+	margin: auto;
 	max-width: 100%;
 }
 
