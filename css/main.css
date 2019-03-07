@@ -14,6 +14,10 @@ header {
 	max-width: 800px;
 }
 
+.hamburger {
+	display: none;
+}
+
 .logo {
 	display: block;
 	margin: auto;
@@ -59,6 +63,31 @@ header {
 	font-size: 37px;
 	display: inline-block;
 }
+
+.mobile-nav {
+	display: none;
+	text-align: center;
+}
+
+.mobile-nav li {
+	display: inline-block;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.mobile-nav-divider {
+	background-color: #5A0024;
+	width: 2px;
+	margin: 15px 0;
+}
+
+.mobile-nav-item a {
+	text-decoration: none;
+	color: #5A0024;
+	font-size: 25px;
+	display: inline-block;
+}
+
 
 .pointer:hover {
 	opacity: 0.7;
@@ -136,7 +165,6 @@ main {
 }
 
 .mc-field-group {
-	float: left;
 	width: 75%;
 	padding-right: 15px;
 }
@@ -179,7 +207,6 @@ main {
 }
 
 .submit-group {
-	float: left;
 	width: 25%;
 }
 
@@ -247,4 +274,75 @@ footer {
 	text-align: center;
 	color: #997141;
 	font-size: 22px;
+}
+
+/*TABLET PORTRAIT*/
+@media only screen and (max-width: 900px) {
+ 	body {
+    	padding-right: 0;
+    	padding-left: 0;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 660px) {
+	.logo {
+		max-width: 280px;
+		padding-left: 6px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: flex;
+		justify-content: space-around;
+		position: absolute;
+		top: 160px;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.4);
+		-webkit-transition: all 0.6s ease; /* Safari */
+  		transition: all 0.6s ease;
+	}
+
+	.off-screen {
+		transform: translateX(-100%);
+	}
+
+	.hamburger {
+		display: block;
+		position: absolute;
+		top: 60px;
+		right: 20px;
+		height: 70px;
+	}
+
+	.blurb {
+		font-size: 18px;
+		padding: 0 10px;
+	}
+
+	#mc_embed_signup_scroll {
+		flex-direction: column;
+		align-items: center;
+		height: 120px;
+	}
+
+	.mc-field-group {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 10px;
+		height: 60px;
+	}
+
+	#mce-EMAIL {
+		text-align: center;
+	}
+
+	.submit-group {
+		width: 100%;
+		height: 60px;
+	}
+
 }

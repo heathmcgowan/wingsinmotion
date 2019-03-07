@@ -9,7 +9,12 @@ $(document).ready(function(){
 	    }, 500);
 	     $('input#mce-EMAIL').focus();
 	});
-	
+
+	// Mobile Nav
+	$('.hamburger').click(function(){
+		$('.mobile-nav').toggleClass('off-screen');
+	});
+
 });
 
 
