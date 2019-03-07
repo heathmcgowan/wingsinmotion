@@ -207,3 +207,8 @@ main {
 	outline-color: #5A0024;
 }
 
+#mce-success-response {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #5A0024;
+}
