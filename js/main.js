@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+	// Newsletter scroll
 	$(document).on('click', 'a[href^="#newsletter"]', function (event) {
 	    event.preventDefault();
 
@@ -7,22 +9,23 @@ $(document).ready(function(){
 	    }, 500);
 	     $('input#mce-EMAIL').focus();
 	});
+	
 });
 
 
-$(document).ready(function(){
-	
+
+
 
 
 // MailChimp
-  	(function($) {
+$(document).ready(function(){
+	  	(function($) {
    		window.fnames = new Array(); 
 	   	window.ftypes = new Array();
 	   	fnames[0]= 'EMAIL';ftypes[0]='email'; 
 	   	fnames[1]='FNAME';ftypes[1]='text';  
 	   	fnames[2]='LNAME';ftypes[2]='text';
   	}());
-	  	var $mcj = $.noConflict(true);
-	
+	  	var $mcj = $.noConflict(true);	
 });
 

@@ -5,7 +5,7 @@ body {
 	background-color: #DECFB0;
 	background-repeat: repeat;
 	background-size: contain;
-	padding: 35px;
+	padding: 30px;
 }
 
 header {
@@ -118,14 +118,14 @@ main {
 
 .wimround {
 	display: block;
-	margin: 0 auto 95px auto;
+	margin: 0 auto 75px auto;
 	max-width: 100%;
 }
 
 /*MAILCHIMP*/
 #newsletter {
 	display: block;
-	margin: 20px auto;
+	margin: 10px auto;
 	max-width: 700px;
 }
 
@@ -211,4 +211,40 @@ main {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	color: #5A0024;
+}
+
+/*Footer*/
+footer {
+	width: 100%;
+	padding: 40px 0 0 0;
+}
+
+.social-media {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.social-media a {
+	height: 70px;
+	margin: 0 15px;
+}
+
+.social-media img {
+	height: 100%;
+}
+
+.social-media img:hover {
+	opacity: 0.8;
+}
+
+.copyright {
+	width: 100%;
+	margin-top: 25px;
+}
+
+.copyright p {
+	text-align: center;
+	color: #997141;
+	font-size: 22px;
 }
