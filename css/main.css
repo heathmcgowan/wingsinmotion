@@ -287,8 +287,13 @@ footer {
 /*MOBILE*/
 @media only screen and (max-width: 660px) {
 	.logo {
-		max-width: 280px;
+		max-width: 250px;
 		padding-left: 6px;
+	}
+
+	.sublogo {
+		max-width: 395px;
+		padding: 0 5px;
 	}
 
 	.nav {
@@ -315,7 +320,7 @@ footer {
 		position: absolute;
 		top: 60px;
 		right: 20px;
-		height: 70px;
+		height: 60px;
 	}
 
 	.blurb {
