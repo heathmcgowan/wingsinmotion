@@ -129,7 +129,7 @@ main {
 	text-align: center;
 	display: block;
 	margin: 95px auto;
-	max-width: 1360px;
+	max-width: 1000px;
 }
 
 .category-container a {
@@ -149,6 +149,32 @@ main {
 	display: block;
 	margin: 0 auto 75px auto;
 	max-width: 100%;
+}
+
+/*GALLERY PAGE*/
+.wimround-header {
+	display: block;
+	margin: 0 auto 25px auto;
+	max-width: 100%;
+}
+
+.wimround-header img {
+	display: block;
+	margin: auto;
+}
+
+.not-home {
+	margin-top: 30px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 60px;
+	color: #5A0024;
+}
+
+#ceramics {
+	margin-top: 60px;
 }
 
 /*MAILCHIMP*/
