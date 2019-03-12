@@ -89,8 +89,12 @@ header {
 }
 
 
+.pointer {
+	transition: 0.25s ease opacity;
+}
+
 .pointer:hover {
-	opacity: 0.7;
+	opacity: 0.6;
 }
 
 .pointer:active {
@@ -132,16 +136,15 @@ main {
 	max-width: 1000px;
 }
 
-.category-container a {
-	display: block;
-	margin: 15px auto;
+.category-name {
+	margin-bottom: 15px;
 	font-size: 45px;
 	text-decoration: none;
 	color: #5A0024;
-	max-width: 100%;
 }
 
 .category-container img {
+	margin-top: 15px;
 	max-width: 100%;
 }
 
@@ -163,11 +166,9 @@ main {
 	margin: auto;
 }
 
-.not-home {
-	margin-top: 30px;
-}
-
-h3 {
+.page-title {
+	display: block;
+	margin: auto;
 	text-align: center;
 	font-size: 60px;
 	color: #5A0024;
@@ -175,6 +176,55 @@ h3 {
 
 #ceramics {
 	margin-top: 60px;
+}
+
+#homewares {
+	margin-bottom: 60px;
+}
+
+.view-more {
+	float: right;
+	font-size: 24px;
+	text-decoration: none;
+	color: #5A0024;
+	padding-right: 2px;
+}
+
+.view-more i {
+	font-size: 19px;
+}
+
+.to-top-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.to-top {
+	border: 3px solid #5A0024;
+	color: #5A0024;
+	border-radius: 50%;
+	height: 85px;
+	width: 85px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.to-top-image {
+	width: 260px;
+	margin-top: -15px;
+}
+
+.to-top:hover {
+	cursor: pointer;
+}
+
+.to-top-image:hover {
+	cursor: pointer;
 }
 
 /*MAILCHIMP*/
@@ -245,6 +295,7 @@ h3 {
 	color: #5A0024;
 	border: 1.5px solid #5A0024;
 	background-color: rgba(255, 255, 255, 0.5);
+	transition: 0.25s ease background-color;
 }
 
 #mc-embedded-subscribe:hover {
@@ -308,6 +359,17 @@ footer {
     	padding-right: 0;
     	padding-left: 0;
     }
+
+	.to-top {
+		height: 70px;
+		width: 70px;
+		font-size: 18px;
+	}
+
+	.to-top-image {
+		width: 210px;
+		margin-top: -15px;
+	}
 }
 
 /*MOBILE*/
@@ -354,6 +416,18 @@ footer {
 		padding: 0 10px;
 	}
 
+	.view-more {
+		float: right;
+		font-size: 22px;
+		text-decoration: none;
+		color: #5A0024;
+		padding-right: 2px;
+	}
+
+	.view-more i {
+		font-size: 16px;
+	}
+
 	#mc_embed_signup_scroll {
 		flex-direction: column;
 		align-items: center;
@@ -374,6 +448,18 @@ footer {
 	.submit-group {
 		width: 100%;
 		height: 60px;
+	}
+
+	.to-top {
+		border-width: 2px;
+		height: 55px;
+		width: 55px;
+		font-size: 14px;
+	}
+
+	.to-top-image {
+		width: 170px;
+		margin-top: -10px;
 	}
 
 }
