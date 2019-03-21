@@ -239,6 +239,72 @@ main {
 	margin: auto;
 }
 
+.contact-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.contact-form {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 25px 0 35px 0; 
+}
+
+.input-style {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #997141;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(153, 113, 65, 0.8);
+    margin-bottom: 12px;
+    padding: 5px;
+}
+
+.input-style::-webkit-input-placeholder {
+	color: #997141;
+	opacity: 0.5;
+}
+
+.input-style::-moz-placeholder {
+	color: #997141;
+	opacity: 0.5;
+}
+
+.input-style:-ms-input-placeholder {
+	color: #997141;
+	opacity: 0.5;
+}
+
+.input-style::placeholder {
+	color: #997141;
+	opacity: 0.5;
+}
+
+.contact-form label {
+	display: none;
+}
+
+#contact-submit {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+	color: #5A0024;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 1px solid #5A0024;
+	padding: 5px 15px;
+	transition: 0.25s ease background-color;
+}
+
+#contact-submit:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
 /*MAILCHIMP*/
 #newsletter {
 	display: block;
