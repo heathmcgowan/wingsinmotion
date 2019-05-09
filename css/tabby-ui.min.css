@@ -61,7 +61,8 @@
 
 @media (min-width:30em) {
     [role=tab]:hover:not([aria-selected=true]) {
-        border: 2px solid transparent
+        border: 2px solid transparent;
+        color: rgba(90, 0, 36, 0.7);
     }
 }
 
