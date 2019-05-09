@@ -23,10 +23,6 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
 // MailChimp
 $(document).ready(function(){
 	  	(function($) {

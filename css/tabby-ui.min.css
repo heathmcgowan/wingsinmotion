@@ -1,0 +1,69 @@
+/*! tabbyjs v12.0.1 | (c) 2019 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/tabby */
+[role=tablist] {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+	justify-content: center;
+}
+
+[role=tablist] * {
+    box-sizing: border-box
+}
+
+@media (min-width:30em) {
+    [role=tablist] li {
+        display: inline-block
+    }
+}
+
+[role=tab] {
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid transparent;
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    transform: translateY(1px);
+}
+
+@media (min-width:30em) {
+    [role=tab] {
+        color: #5A0024;
+        border-top-color: transparent;
+        border-top-left-radius: .5em;
+        border-top-right-radius: .5em;
+        display: inline-block;
+        margin-bottom: -1px
+    }
+}
+
+[role=tab][aria-selected=true] {
+    background-color: #d3d3d3;
+    outline: none;
+}
+
+@media (min-width:30em) {
+    [role=tab][aria-selected=true] {
+        background-color: #e6dbc4;
+        border: 2px solid #5A0024;
+        color: #5A0024;
+        border-bottom-color: #e6dbc4;
+        outline: none;
+    }
+}
+
+[role=tab]:hover:not([aria-selected=true]) {
+    background-color: transparent;
+    outline: none;
+}
+
+@media (min-width:30em) {
+    [role=tab]:hover:not([aria-selected=true]) {
+        border: 1px solid transparent
+    }
+}
+
+[hidden] {
+    display: none
+}

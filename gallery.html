@@ -17,6 +17,7 @@
 	<meta name="msapplication-TileColor" content="#decfb0">
 	<meta name="theme-color" content="#decfb0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/tabby-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -47,22 +48,44 @@
 		</ul>
 	</header>
 	<main>
-		<h3 class="page-title">gallery</h3>
-		<div id="ceramics" class="category-container">
-			<a class="category-name pointer" href="#">ceramics</a>
-			<a href="#"><img src="img/ceramics01-progressive.jpg" alt="ceramics"></a>
-			<a class="view-more pointer" href="#">view more <i class="fas fa-angle-right"></i></a>
+		<div class="gallery-container">
+			<ul class="tab-list" data-tabs>
+				<li><a data-tabby-default href="#ceramics-tab">Ceramics</a></li>
+				<li><a href="#bags-tab">Bags</a></li>
+				<li><a href="#homewares-tab">Homewares</a></li>
+			</ul>		
+			<div class="gallery-tab" id="ceramics-tab">
+				<h4 class="gallery-category">cups</h4>
+				<img src="img/cups1.jpg" alt="ceramics">
+				<img src="img/cups2.jpg" alt="ceramics">
+				<h4 class="gallery-category">bowls</h4>
+				<img src="img/bowls1.jpg" alt="ceramics">
+				<img src="img/bowls2.jpg" alt="ceramics">
+				<h4 class="gallery-category">jugs</h4>
+				<img src="img/jugs.jpg" alt="ceramics">
+				<h4 class="gallery-category">limited edition</h4>
+				<img src="img/limited-edition.jpg" alt="ceramics">
+				<h4 class="gallery-category">plant pots</h4>
+				<img src="img/plant-pots-1.jpg" alt="ceramics">
+			</div>
+			<div class="gallery-tab" id="bags-tab">
+				<h4 class="gallery-category">cotton and wool bags</h4>
+				<img src="img/cotton-and-wool.jpg" alt="ceramics">
+				<h4 class="gallery-category">vegetable bags</h4>
+				<img src="img/vegetable-bags.jpg" alt="ceramics">
+				<h4 class="gallery-category">raffia bags</h4>
+				<img src="img/raffia-bags.jpg" alt="ceramics">
+			</div>
+			<div class="gallery-tab" id="homewares-tab">
+				<h4 class="gallery-category">aprons</h4>
+				<img src="img/1200x600.png" alt="ceramics">
+				<h4 class="gallery-category">baskets</h4>
+				<img src="img/1200x600.png" alt="ceramics">
+				<h4 class="gallery-category">cloths</h4>
+				<img src="img/1200x600.png" alt="ceramics">
+			</div>
 		</div>
-		<div id="bags" class="category-container">
-			<a class="category-name pointer" href="#">bags</a>
-			<a href="#"><img src="img/bags01-progressive.jpg" alt="bags"></a>
-			<a class="view-more pointer" href="#">view more <i class="fas fa-angle-right"></i></a>
-		</div>
-		<div id="homewares" class="category-container">
-			<a class="category-name pointer" href="#">homewares</a>
-			<a href="#"><img src="img/homewares01-progressive.jpg" alt="homewares"></a>
-			<a class="view-more pointer" href="#">view more <i class="fas fa-angle-right"></i></a>
-		</div>
+		
 		<div class="to-top-container">
 			<div class="to-top"><p>to top</p></div>
 			<img class="to-top-image" src="img/logo.png" alt="Wings In Motion Logo">
@@ -98,6 +121,8 @@
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+	<script src="js/tabby.min.js"></script>
+	<script src="js/gallery.js"></script>
 	<script src="js/main.js"></script>
 </body>
 
