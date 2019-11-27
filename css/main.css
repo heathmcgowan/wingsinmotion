@@ -259,6 +259,11 @@ main {
 	margin-top: 30px;
 }
 
+#shop-image {
+	display: block;
+	margin: auto;
+}
+
 /*CONTACT*/
 #map {
 	display: block;
@@ -574,17 +579,4 @@ footer {
 		width: 90%;
 	}
 
-}
-
-/*DELETE THIS*/
-.placeholder {
-	height: 400px;
-	max-width: 900px;
-	background-color: #919191;
-	display: block;
-	margin: 30px auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
 }
